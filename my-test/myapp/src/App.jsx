@@ -29,11 +29,11 @@ function App() {
       <h1>Counter</h1>
       <div >
         <button onClick={AddValue}>
-          count add {count}
+          count add = {count}
         </button>
         <br/>
         <button onClick={RemoveValue}>
-          count remove {count}
+          count remove = {count}
         </button>
       </div>
     </>
